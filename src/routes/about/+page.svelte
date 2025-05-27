@@ -10,34 +10,33 @@
 
 	// Constants
 	const values = [
-		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
-		},
-		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
-		},
-		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
-		}
-	];
+  {
+    title: "Operational excellence",
+    description: "We build practical solutions that work at scale—focusing on high standards, discipline, and measurable results."
+  },
+  {
+    title: "Relentless support",
+    description: "2-minute response times and 24/7 availability are table stakes. We solve problems fast and never leave customers hanging—ever."
+  },
+  {
+    title: "We're present in person",
+    description: "Hands-on onboarding and weekly check-ins mean every idea, issue, or success feeds straight back to the team and the product."  
+  }
+];
 </script>
 
 <SecondaryHero
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://source.unsplash.com/random/?people"
+  title="Send the right tech, every time"
+  subtitle="AI-powered dispatching that boosts sales, cuts wasted drive time, and keeps customers happy"
+  imageSrc="/generated/image-a-friendly-team-in-a-modern-office-setti.webp"
 />
 
 <!-- Story Section -->
 <Story
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"Probook began when we saw home service teams struggling to match technicians to the right jobs. Too many decisions were made on gut instinct, leading to lost revenue and missed opportunities. We believed dispatching could be smarter—and that every dispatcher deserved better tools.",
+		"Built by dispatchers, for dispatchers, Probook was created with real-world challenges in mind. We don’t just hand over software; we join companies onsite for launch and stay available around the clock. Our mission is to partner with teams, making sure every dispatcher feels confident and supported from day one.",
+		"Today, Probook helps leading home service companies grow sales, train new hires faster, and handle more calls with fewer headaches. We stand out by delivering fast, personal support and real, measurable results. When dispatchers succeed, everyone wins."
 	]}
 />
 
@@ -46,32 +45,17 @@
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
-	stakeholders={[
-		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image:
-				"https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		}
-	]}
+  stakeholderType="team"
+  title="Our team."
+  subtitle="Your partners in dispatch innovation."
+  stakeholders={[
+    {
+      name: "George Eliadis",
+      position: "Founder & CEO",
+      bio: "George helps home service companies optimize dispatch and maximize results.",
+      image: "/generated/image-a-professional-headshot-of-george-eliadi.webp"
+    }
+  ]}
 />
 
 <StakeholderGrid
@@ -96,7 +80,12 @@
 
 <!-- CTA Section -->
 <CallToAction
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+  title="Help lead real change in home services"
+  subtitle="Work hands-on with leadership, customers, and a small team that moves fast."
+  description="If you want to make your mark, shape powerful tools, and support the people who keep homes running, we want to hear from you. Reach out directly or apply if this sounds like you."
+  callsToAction={[
+    { href: '/careers', label: 'View open roles', variant: 'primary' },
+    { href: 'mailto:ceo@probook.com', label: 'Contact our CEO', variant: 'secondary' }
+  ]}
+  imageSrc="/generated/image-a-diverse-team-of-home-services-startup-.webp"
 />

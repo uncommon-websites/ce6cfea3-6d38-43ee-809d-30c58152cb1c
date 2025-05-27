@@ -37,81 +37,8 @@ Please update features according to the company's product offering. Do not remov
 	const {
 		title = "Simple, transparent pricing",
 		subtitle = "Choose the plan that works best for your needs",
-		tierNames = ["Starter", "Pro", "Enterprise"],
-		features = [
-			{
-				name: "Projects",
-				tiers: {
-					Starter: "5",
-					Pro: "Unlimited",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "Team members",
-				tiers: {
-					Starter: "1",
-					Pro: "10",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "Storage",
-				tiers: {
-					Starter: "1GB",
-					Pro: "10GB",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "API access",
-				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
-				}
-			},
-			{
-				name: "Custom domains",
-				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
-				}
-			},
-			{
-				name: "Analytics",
-				tiers: {
-					Starter: "Basic",
-					Pro: "Advanced",
-					Enterprise: "Advanced"
-				}
-			},
-			{
-				name: "Support response time",
-				tiers: {
-					Starter: "24 hours",
-					Pro: "4 hours",
-					Enterprise: "1 hour"
-				}
-			},
-			{
-				name: "Dedicated account manager",
-				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: true
-				}
-			},
-			{
-				name: "SLA",
-				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: "99.9%"
-				}
-			}
-		],
+	  tierNames = ["Copilot", "Autopilot", "Enterprise"],
+	  features = [\n    {\n      name: "AI right-tech\/right-call recommendations",\n      tiers: {\n        Copilot: true,\n        Autopilot: true,\n        Enterprise: true\n      }\n    },\n    {\n      name: "ServiceTitan real-time integration",\n      tiers: {\n        Copilot: true,\n        Autopilot: true,\n        Enterprise: true\n      }\n    },\n    {\n      name: "Proactive late alerts & reschedule",\n      tiers: {\n        Copilot: true,\n        Autopilot: true,\n        Enterprise: true\n      }\n    },\n    {\n      name: "Board reshuffling\/AI optimized assignment",\n      tiers: {\n        Copilot: false,\n        Autopilot: true,\n        Enterprise: true\n      }\n    },\n    {\n      name: "Tech:dispatcher ratio supported",\n      tiers: {\n        Copilot: \"10:1\",\n        Autopilot: \"20:1–25:1\",\n        Enterprise: \"Custom\"\n      }\n    },\n    {\n      name: "Technician performance analytics",\n      tiers: {\n        Copilot: true,\n        Autopilot: \"Advanced\",\n        Enterprise: \"Advanced + custom reports\"\n      }\n    },\n    {\n      name: "Forecasted job length by tech and job type",\n      tiers: {\n        Copilot: true,\n        Autopilot: true,\n        Enterprise: true\n      }\n    },\n    {\n      name: "7-day call board planning",\n      tiers: {\n        Copilot: true,\n        Autopilot: true,\n        Enterprise: \"Plus custom views\"\n      }\n    },\n    {\n      name: "Weekly check-in meetings",\n      tiers: {\n        Copilot: true,\n        Autopilot: true,\n        Enterprise: true\n      }\n    },\n    {\n      name: "Median chat support (2 min)",\n      tiers: {\n        Copilot: true,\n        Autopilot: true,\n        Enterprise: true\n      }\n    },\n    {\n      name: "In-person 2-day onboarding with CEO",\n      tiers: {\n        Copilot: false,\n        Autopilot: true,\n        Enterprise: true\n      }\n    },\n    {\n      name: "Dedicated account manager (CSM)",\n      tiers: {\n        Copilot: false,\n        Autopilot: false,\n        Enterprise: true\n      }\n    },\n    {\n      name: "Custom integrations",\n      tiers: {\n        Copilot: false,\n        Autopilot: false,\n        Enterprise: true\n      }\n    },\n    {\n      name: "Enterprise SLA\/uptime guarantee",\n      tiers: {\n        Copilot: false,\n        Autopilot: false,\n        Enterprise: true\n      }\n    }\n  ],
 		tiers = [
 			{
 				name: "Starter",

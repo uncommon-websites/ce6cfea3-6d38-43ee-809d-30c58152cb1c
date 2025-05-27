@@ -53,40 +53,35 @@
 />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="Probook is an AI dispatching solution for home services companies. It optimizes technician assignments, boosts sales and efficiency, and helps deliver smoother customer service every day."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
-			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image:
-				"https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-		},
-		{
-			name: "John Doe",
+			name: "Martina Hanley",
 			position: "Director of Operations",
-			company: "Global Solutions",
+			company: "Lion Home Service",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image:
-				"https://images.unsplash.com/photo-1600603405959-6d623e92445c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"With Probook, I finally have time for everything I used to push off. Our dispatchers save nearly an hour per day and customers get callbacks faster than ever. The platform paid for itself in the first month.",
+			image: "/generated/image-a-female-hvac-dispatcher-with-a-warm-and.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Aidan Clark",
+			position: "Service Manager",
+			company: "Flow Smart Plumbing",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image:
-				"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"Before Probook, a single absence threw our whole schedule off. Now, job assignments update instantly when plans change. No more panic when someone calls in sick—risk just isn’t a factor anymore.",
+			image: "/generated/image-a-male-plumbing-service-manager-exuding-.webp"
+		},
+		{
+			name: "Barrett Young",
+			position: "Supervisor",
+			company: "VoltGuard Electric",
+			quote:
+				"Probook revealed which techs drive results and which jobs are losing money. We improved our billable hour efficiency by 21% and cut costs without sacrificing quality service.",
+			image: "/generated/image-a-male-electrician-supervisor-focused-an.webp"
 		}
 	]}
 />
@@ -115,45 +110,55 @@
 />
 
 <UseCases
-	generating
-	title="Use Cases"
-	subtitle="Real-world applications for your business needs"
-	useCases={[
-		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings.",
-			image:
-				"https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
-			link: {
-				href: "/use-cases/workflows",
-				label: "Learn more"
-			}
-		},
-		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2488&q=80",
-			link: {
-				href: "/use-cases/data-analysis",
-				label: "Explore analytics"
-			}
-		},
-		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption.",
-			image:
-				"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
-			link: {
-				href: "/use-cases/collaboration",
-				label: "See security features"
-			}
-		}
-	]}
+  title="Use cases"
+  subtitle="Real-world applications for home service leaders"
+  useCases={[
+    {
+      title: "Boost revenue with smarter tech assignments",
+      description: "Send your best closer to top-dollar jobs—AI pinpoints which calls have the highest upsell potential and matches them with sales-focused technicians, raising your average ticket and flip rate without adding extra appointments.",
+      image: "/generated/image-a-residential-hvac-technician-arriving-a.webp",
+      link: {
+        href: "/use-cases/boost-revenue",
+        label: "Learn more"
+      }
+    },
+    {
+      title: "Keep your board running when techs call out",
+      description: "A last-minute absence won’t wreck your day. Instantly reshuffle assignments and re-balance workloads, so you never leave revenue on the table or scramble to fill gaps.",
+      image: "/generated/image-in-a-busy-office-environment-a-dispatche.webp",
+      link: {
+        href: "/use-cases/instant-reshuffle",
+        label: "Learn more"
+      }
+    },
+    {
+      title: "Reduce callbacks and delight more customers",
+      description: "Proactively flag jobs at risk for delays or mistakes—AI catches the small details before they become big problems. Keep customers happy with fewer callbacks and on-time service they’ll remember.",
+      image: "/generated/image-an-electrician-standing-in-a-cozy-living.webp",
+      link: {
+        href: "/use-cases/reduce-callbacks",
+        label: "Learn more"
+      }
+    }
+  ]}
 />
 
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+  title="See Probook in action"
+  subtitle="Give your dispatch team superpowers"
+  description="See how Probook helps home service companies optimize assignments and drive higher sales—while making dispatchers’ days easier. Book a live demo or connect for details."
+  imageSrc="/generated/image-a-cheerful-home-services-manager-wearing.webp"
+  callsToAction={[
+    {
+      href: "/book-demo",
+      label: "Book a live demo",
+      variant: "primary"
+    },
+    {
+      href: "/contact",
+      label: "Contact sales",
+      variant: "secondary"
+    }
+  ]}
+/>

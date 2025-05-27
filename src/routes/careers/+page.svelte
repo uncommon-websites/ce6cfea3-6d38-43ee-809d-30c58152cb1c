@@ -23,22 +23,22 @@
 		"bg-primary-50 text-primary-600 dark:bg-primary-950 dark:text-primary-400 flex items-center justify-center rounded-full";
 
 	const benefits = [
-		{
-			title: "Flexible Work",
-			description: "Remote-first with flexible hours that respect work-life balance.",
-			icon: IconBriefcase
-		},
-		{
-			title: "Growth Opportunities",
-			description: "Continuous learning with mentorship and education stipends.",
-			icon: IconUsers
-		},
-		{
-			title: "Comprehensive Benefits",
-			description: "Health coverage, retirement plans, and generous paid time off.",
-			icon: IconHeart
-		}
-	];
+  {
+    title: "Direct impact",
+    description: "Shape how home service companies run. Ship work that actually gets used.",
+    icon: IconBriefcase
+  },
+  {
+    title: "Personal growth",
+    description: "Early team = autonomy, learning, fast career growth, and real ownership.",
+    icon: IconUsers
+  },
+  {
+    title: "Legendary support",
+    description: "Work closely with the CEO and industry leaders. We invest in each other with transparency, trust, and clear feedback.",
+    icon: IconHeart
+  }
+];
 
 	const openings: JobOpening[] = [
 		// Engineering
@@ -121,83 +121,86 @@
 	];
 
 	const employeeTestimonials = [
-		{
-			name: "Michael Chen",
-			position: "Senior Developer",
-			company: "Engineering Team",
-			quote:
-				"Working here has given me the opportunity to tackle challenging problems while maintaining a healthy work-life balance. The team culture is supportive and collaborative.",
-			image:
-				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Priya Sharma",
-			position: "Product Designer",
-			company: "Design Team",
-			quote:
-				"The creative freedom and opportunity to influence product decisions makes this the best place I've ever worked. I'm constantly learning and growing.",
-			image:
-				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Marcus Johnson",
-			position: "Marketing Lead",
-			company: "Marketing Team",
-			quote:
-				"I joined three years ago and have grown tremendously. The leadership truly invests in your development and the work environment is both challenging and supportive.",
-			image:
-				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		}
-	];
+  {
+    name: "Sofia Martinez",
+    position: "Customer Support Specialist",
+    company: "Support Team",
+    quote:
+      "From day one, I felt welcomed and supported by teammates and leadership. Everyone’s ideas matter here, and the encouragement I receive helps me do my best work every day.",
+    image: "/generated/image-a-hispanic-woman-with-a-warm-smile-weari.webp"
+  },
+  {
+    name: "Jamal Robinson",
+    position: "Software Engineer",
+    company: "Engineering Team",
+    quote:
+      "Probook is the best place I’ve ever worked to grow as an engineer. The projects push you, but there’s always someone ready to help. I learn nonstop and actually influence big decisions.",
+    image: "/generated/black-male-software-engineer-happy-office.webp"
+  },
+  {
+    name: "Emily Carter",
+    position: "Product Manager",
+    company: "Product Team",
+    quote:
+      "We empower each other and celebrate wins big and small. Leadership trusts us to take ownership, and the energy on the team is positive and motivating. It’s a great place to lead and learn.",
+    image: "/generated/white-woman-product-manager-office-tablet.webp"
+  }
+];
 
 	const processSteps = [
-		{
-			step: 1,
-			title: "Apply",
-			description:
-				"Submit your application through our careers portal with your resume and portfolio."
-		},
-		{
-			step: 2,
-			title: "Interview",
-			description: "Meet with our team to discuss your experience, skills, and career aspirations."
-		},
-		{
-			step: 3,
-			title: "Welcome aboard",
-			description: "Join our team and start your journey building the future with us."
-		}
-	];
+  {
+    step: 1,
+    title: "Submit your application",
+    description:
+      "Use our short form (no cover letter required). Tell us a bit about yourself and why you want to join Probook."
+  },
+  {
+    step: 2,
+    title: "Meet the team",
+    description: "If it's a fit, we'll reach out within 5 days for a friendly intro call. Interviews are conversational and focused on what you can do, not just your resume."
+  },
+  {
+    step: 3,
+    title: "Show your skills",
+    description: "Tackle a real world challenge or work session related to the role. Get a feel for how we work and see if it's the right fit for you."
+  },
+  {
+    step: 4,
+    title: "Decision & feedback",
+    description: "You'll get a response, either way, fast. No ghostingjust quick, clear feedback, and you can ask us anything."
+  }
+];
 
 	const values = [
-		{
-			icon: IconHeart,
-			title: "Passion",
-			description: "We're driven by a shared passion for innovation and excellence."
-		},
-		{
-			icon: IconUsers,
-			title: "Collaboration",
-			description: "We believe in teamwork and collaboration to achieve great things."
-		},
-		{
-			icon: IconGlobe,
-			title: "Global Impact",
-			description: "We're committed to making a positive impact on the world."
-		}
-	];
+  {
+    icon: IconHeart,
+    title: "We show up",
+    description: "We launch every new customer in person. Weekly check-ins and direct feedback are just how we work."
+  },
+  {
+    icon: IconUsers,
+    title: "We keep it real",
+    description: "No ego, no layers. We say what we mean, share wins and misses, and everyone can talk to the CEO."
+  },
+  {
+    icon: IconGlobe,
+    title: "We care deeply",
+    description: "We build with dispatchers, for dispatchers. Our team supports, teaches, and learns from each other every day."
+  }
+];
 </script>
 
 <!-- Hero Section -->
 
 <SecondaryHero
-	title="Join our team of innovators"
-	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
+	title="Help shape the future, together"
+	subtitle="Work side-by-side with our CEO, grow fast, and make a real impact for customers"
+	imageSrc="/generated/image-a-group-of-diverse-office-employees-gath.webp"
 />
 
 <!-- Why Join Us Section -->
 <section class={SECTION_BASE_CLASSES}>
-	<SectionHeader title="Why join us?" subtitle="Build your career while making an impact" />
+	<SectionHeader title="Why join us?" subtitle="Work with industry leaders. Grow fast. Make a real difference for home service companies across the country." />
 
 	<div class="mt-16 grid gap-4 md:grid-cols-3">
 		{#each benefits as benefit}
@@ -207,7 +210,7 @@
 </section>
 
 <!-- Culture Section -->
-<Culture {values} />
+<Culture {values} subtitle="Were a tight-knit team where everyone has a voice, feedback moves fast, and customer impact is what matters. Work with people who care, learn from dispatchers in the field, and be supported every step of the way." />
 
 <Testimonials testimonials={employeeTestimonials} />
 
