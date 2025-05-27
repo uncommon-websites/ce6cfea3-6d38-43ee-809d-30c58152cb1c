@@ -7,16 +7,50 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+<CustomerCardHero
+  centered={false}
+  title="Right job. Right tech. Every time."
+  subtitle="Probook helps dispatchers move faster, boost sales, and handle more techs—without the headache."
+  customers={[
+    {
+      name: 'Brandon Lee',
+      position: 'HVAC Dispatcher',
+      imageSrc: '/generated/image-a-cheerful-male-hvac-dispatcher-sitting-.webp',
+    },
+    {
+      name: 'Michelle Nguyen',
+      position: 'Plumbing Dispatcher',
+      imageSrc: '/generated/image-a-confident-female-plumbing-dispatcher-s.webp',
+    },
+    {
+      name: 'David Morales',
+      position: 'Electrical Service Manager',
+      imageSrc: '/generated/image-a-middle-aged-male-electrical-service-ma.webp',
+    },
+    {
+      name: 'Samantha Torres',
+      position: 'Home Services Coordinator',
+      imageSrc: '/generated/image-a-young-female-home-services-coordinator.webp',
+    },
+    {
+      name: 'Gary Foster',
+      position: 'Sewer Company Dispatcher',
+      imageSrc: '/generated/image-a-smiling-male-dispatcher-for-a-sewer-co.webp',
+    },
+  ]}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by industry leaders"
+	logoUrls={[
+		"https://logo.clearbit.com/ars.com",
+		"https://logo.clearbit.com/benfranklinplumbing.com",
+		"https://logo.clearbit.com/rooterhero.com",
+		"https://logo.clearbit.com/mistersparky.com"
+	]}
+/>
 
 <Summary
 	generating
